@@ -89,7 +89,6 @@ const HomePage = () => {
     };
     getAllTransactions();
   }, [frequency, selectedDate, type, setAllTransection]);
-
   //delete handler
   const handleDelete = async (record) => {
     try {
